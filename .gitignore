@@ -149,3 +149,14 @@ core.*
 __pycache__
 
 gradle.lockfile
+# Captures de handshake WiFi (sous toutes leurs formes)
+*.cap
+*.pcap
+*.kismet.csv
+*.kismet.netxml
+*.log.csv
+iotlab-handshake-*
+wordlist.txt
+
+# Captures-preuves sensibles
+**/pictures/key-found.png
